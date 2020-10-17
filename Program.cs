@@ -25,7 +25,7 @@ namespace Lecture04
             Console.Write("Enter second subject marks : ");
             int number2 = int.Parse(Console.ReadLine());
             obj3.setNumbers(number1, number2);
-            obj3.findSum();
+            obj3.findAvg();
 
             Console.ReadKey();
         }
